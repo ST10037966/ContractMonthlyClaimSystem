@@ -1,0 +1,45 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.footer {
+    padding: 1rem 0;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    background-color: #343a40;
+}
+
+.nav-link, .navbar-brand {
+    color: #ffffff;
+}
+
+.footer {
+    padding: 1rem;
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Create Claim";
+}
+
+<h1>Create a New Claim</h1>
+
+<form>
+    <div class="form-group">
+        <label for="lecturerName">Lecturer Name</label>
+        <input type="text" class="form-control" id="lecturerName" placeholder="Enter lecturer name">
+    </div>
+    <div class="form-group">
+        <label for="claimDate">Claim Date</label>
+        <input type="date" class="form-control" id="claimDate">
+    </div>
+    <div class="form-group">
+        <label for="amount">Amount</label>
+        <input type="number" class="form-control" id="amount" placeholder="Enter amount">
+    </div>
+    <div class="form-group">
+        <label for="supportingDocuments">Supporting Documents</label>
+        <input type="file" class="form-control-file" id="supportingDocuments">
+    </div>
+    <div class="form-group">
+        <label for="status">Status</label>
+        <select class="form-control" id="status">
+            <option>Submitted</option>
+            <option>Approved</option>
+            <option>Rejected</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

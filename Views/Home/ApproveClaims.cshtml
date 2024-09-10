@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Approve Claims";
+}
+
+<div class="container">
+    <h1 class="mt-4">Approve Claims</h1>
+    <table class="table table-bordered mt-3">
+        <thead>
+            <tr>
+                <th scope="col">Claim ID</th>
+                <th scope="col">Title</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Status</th>
+                <th scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Claim for July</td>
+                <td>R500</td>
+                <td>Pending</td>
+                <td>
+                    <button class="btn btn-success btn-sm">Approve</button>
+                    <button class="btn btn-warning btn-sm">Reject</button>
+                </td>
+            </tr>
+            <!-- Additional claims can be added here -->
+        </tbody>
+    </table>
+</div>
